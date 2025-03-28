@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion
+CMAKE_SOURCE_DIR = /home/klapat/cpp/ITERM/taskTracker/otherVertion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/build
+CMAKE_BINARY_DIR = /home/klapat/cpp/ITERM/taskTracker/otherVertion/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/task_tracker.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/task_tracker.dir/progress.make
 include CMakeFiles/task_tracker.dir/flags.make
 
 CMakeFiles/task_tracker.dir/main.cc.o: CMakeFiles/task_tracker.dir/flags.make
-CMakeFiles/task_tracker.dir/main.cc.o: /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/main.cc
+CMakeFiles/task_tracker.dir/main.cc.o: /home/klapat/cpp/ITERM/taskTracker/otherVertion/main.cc
 CMakeFiles/task_tracker.dir/main.cc.o: CMakeFiles/task_tracker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task_tracker.dir/main.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task_tracker.dir/main.cc.o -MF CMakeFiles/task_tracker.dir/main.cc.o.d -o CMakeFiles/task_tracker.dir/main.cc.o -c /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/klapat/cpp/ITERM/taskTracker/otherVertion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task_tracker.dir/main.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task_tracker.dir/main.cc.o -MF CMakeFiles/task_tracker.dir/main.cc.o.d -o CMakeFiles/task_tracker.dir/main.cc.o -c /home/klapat/cpp/ITERM/taskTracker/otherVertion/main.cc
 
 CMakeFiles/task_tracker.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task_tracker.dir/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/main.cc > CMakeFiles/task_tracker.dir/main.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/klapat/cpp/ITERM/taskTracker/otherVertion/main.cc > CMakeFiles/task_tracker.dir/main.cc.i
 
 CMakeFiles/task_tracker.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task_tracker.dir/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/main.cc -o CMakeFiles/task_tracker.dir/main.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/klapat/cpp/ITERM/taskTracker/otherVertion/main.cc -o CMakeFiles/task_tracker.dir/main.cc.s
 
 CMakeFiles/task_tracker.dir/internal/task/task.cc.o: CMakeFiles/task_tracker.dir/flags.make
-CMakeFiles/task_tracker.dir/internal/task/task.cc.o: /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/internal/task/task.cc
+CMakeFiles/task_tracker.dir/internal/task/task.cc.o: /home/klapat/cpp/ITERM/taskTracker/otherVertion/internal/task/task.cc
 CMakeFiles/task_tracker.dir/internal/task/task.cc.o: CMakeFiles/task_tracker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task_tracker.dir/internal/task/task.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task_tracker.dir/internal/task/task.cc.o -MF CMakeFiles/task_tracker.dir/internal/task/task.cc.o.d -o CMakeFiles/task_tracker.dir/internal/task/task.cc.o -c /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/internal/task/task.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/klapat/cpp/ITERM/taskTracker/otherVertion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task_tracker.dir/internal/task/task.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task_tracker.dir/internal/task/task.cc.o -MF CMakeFiles/task_tracker.dir/internal/task/task.cc.o.d -o CMakeFiles/task_tracker.dir/internal/task/task.cc.o -c /home/klapat/cpp/ITERM/taskTracker/otherVertion/internal/task/task.cc
 
 CMakeFiles/task_tracker.dir/internal/task/task.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task_tracker.dir/internal/task/task.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/internal/task/task.cc > CMakeFiles/task_tracker.dir/internal/task/task.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/klapat/cpp/ITERM/taskTracker/otherVertion/internal/task/task.cc > CMakeFiles/task_tracker.dir/internal/task/task.cc.i
 
 CMakeFiles/task_tracker.dir/internal/task/task.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task_tracker.dir/internal/task/task.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/internal/task/task.cc -o CMakeFiles/task_tracker.dir/internal/task/task.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/klapat/cpp/ITERM/taskTracker/otherVertion/internal/task/task.cc -o CMakeFiles/task_tracker.dir/internal/task/task.cc.s
 
 # Object files for target task_tracker
 task_tracker_OBJECTS = \
@@ -109,7 +109,7 @@ task_tracker: CMakeFiles/task_tracker.dir/main.cc.o
 task_tracker: CMakeFiles/task_tracker.dir/internal/task/task.cc.o
 task_tracker: CMakeFiles/task_tracker.dir/build.make
 task_tracker: CMakeFiles/task_tracker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable task_tracker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/klapat/cpp/ITERM/taskTracker/otherVertion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable task_tracker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/task_tracker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/task_tracker.dir/clean:
 .PHONY : CMakeFiles/task_tracker.dir/clean
 
 CMakeFiles/task_tracker.dir/depend:
-	cd /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/build /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/build /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/build/CMakeFiles/task_tracker.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/klapat/cpp/ITERM/taskTracker/otherVertion/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/klapat/cpp/ITERM/taskTracker/otherVertion /home/klapat/cpp/ITERM/taskTracker/otherVertion /home/klapat/cpp/ITERM/taskTracker/otherVertion/build /home/klapat/cpp/ITERM/taskTracker/otherVertion/build /home/klapat/cpp/ITERM/taskTracker/otherVertion/build/CMakeFiles/task_tracker.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/task_tracker.dir/depend
 

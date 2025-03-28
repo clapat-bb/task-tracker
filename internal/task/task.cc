@@ -3,6 +3,7 @@
 #include <filesystem>
 #include <iomanip>
 #include <iostream>
+#include <json.hpp>
 
 namespace fs = std::filesystem;
 
@@ -29,7 +30,7 @@ TaskStatus TaskStatusFromString(const std::string &status) {
   if (status == "done") {
     return TaskStatus::DONE;
   }
-  return TaskStatus::DONE;
+  return TaskStatus::TODO;
 }
 
 std::string statusColor(TaskStatus status) {
@@ -37,7 +38,7 @@ std::string statusColor(TaskStatus status) {
   case TaskStatus::TODO:
     return "#3c3c3c";
   case TaskStatus::IN_PROGRESS:
-    return "202";
+    return "#202020";
   case TaskStatus::DONE:
     return "#04b575";
   default:
@@ -66,9 +67,26 @@ std::vector<Task> readTaskFromFile() {
 
     if (taskJson["status"].is_string()) {
       task.status = TaskStatusFromString(taskJson["status"]);
+    } else if (taskJson["status"].is_number()) {
+      int statusInt = taskJson["status"];
+      switch (statusInt) {
+      case 0:
+        task.status = TaskStatus::TODO;
+        break;
+      case 1:
+        task.status = TaskStatus::IN_PROGRESS;
+        break;
+      case 2:
+        task.status = TaskStatus::DONE;
+        break;
+      default:
+        std::cerr << "Error: unkonw status value in task with id " << task.id
+                  << '\n';
+        continue;
+      }
     } else {
-      std::cerr << "Error: status field is not a stirng in task with id "
-                << task.id << '\n';
+      std::cerr << "Error: status field has an unexpected type in task with id "
+                << task.id << "\n";
       continue;
     }
     task.createAt = taskJson["createAt"];

@@ -1,7 +1,7 @@
 CMakeFiles/task_tracker.dir/internal/task/task.cc.o: \
- /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/internal/task/task.cc \
+ /home/klapat/cpp/ITERM/taskTracker/otherVertion/internal/task/task.cc \
  /usr/include/stdc-predef.h \
- /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/internal/task/task.h \
+ /home/klapat/cpp/ITERM/taskTracker/otherVertion/internal/task/task.h \
  /usr/include/c++/13/cstdint \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/internal/task/task.cc" "CMakeFiles/task_tracker.dir/internal/task/task.cc.o" "gcc" "CMakeFiles/task_tracker.dir/internal/task/task.cc.o.d"
-  "/home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/main.cc" "CMakeFiles/task_tracker.dir/main.cc.o" "gcc" "CMakeFiles/task_tracker.dir/main.cc.o.d"
+  "/home/klapat/cpp/ITERM/taskTracker/otherVertion/internal/task/task.cc" "CMakeFiles/task_tracker.dir/internal/task/task.cc.o" "gcc" "CMakeFiles/task_tracker.dir/internal/task/task.cc.o.d"
+  "/home/klapat/cpp/ITERM/taskTracker/otherVertion/main.cc" "CMakeFiles/task_tracker.dir/main.cc.o" "gcc" "CMakeFiles/task_tracker.dir/main.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

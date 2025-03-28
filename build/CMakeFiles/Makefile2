@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion
+CMAKE_SOURCE_DIR = /home/klapat/cpp/ITERM/taskTracker/otherVertion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/build
+CMAKE_BINARY_DIR = /home/klapat/cpp/ITERM/taskTracker/otherVertion/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/task_tracker.dir/clean
 CMakeFiles/task_tracker.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_tracker.dir/build.make CMakeFiles/task_tracker.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_tracker.dir/build.make CMakeFiles/task_tracker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/build/CMakeFiles --progress-num=1,2,3 "Built target task_tracker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/klapat/cpp/ITERM/taskTracker/otherVertion/build/CMakeFiles --progress-num=1,2,3 "Built target task_tracker"
 .PHONY : CMakeFiles/task_tracker.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/task_tracker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/klapat/cpp/ITERM/taskTracker/otherVertion/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task_tracker.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/klapat/cpp/ITERM/taskTracker/otherVertion/build/CMakeFiles 0
 .PHONY : CMakeFiles/task_tracker.dir/rule
 
 # Convenience name for target.

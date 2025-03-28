@@ -1,8 +1,8 @@
 CMakeFiles/task_tracker.dir/main.cc.o: \
- /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/main.cc \
+ /home/klapat/cpp/ITERM/taskTracker/otherVertion/main.cc \
  /usr/include/stdc-predef.h \
- /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/./cmd/root.cc \
- /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/./cmd/../internal/task/task.h \
+ /home/klapat/cpp/ITERM/taskTracker/otherVertion/./cmd/root.cc \
+ /home/klapat/cpp/ITERM/taskTracker/otherVertion/./cmd/../internal/task/task.h \
  /usr/include/c++/13/cstdint \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -248,7 +248,7 @@ CMakeFiles/task_tracker.dir/main.cc.o: \
  /usr/include/c++/13/bits/fs_dir.h /usr/include/c++/13/bits/fs_ops.h \
  /usr/include/c++/13/numeric /usr/include/c++/13/bits/stl_numeric.h \
  /usr/include/c++/13/pstl/glue_numeric_defs.h /usr/include/c++/13/any \
- /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/./cmd/add.cc \
- /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/./cmd/delete.cc \
- /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/./cmd/list.cc \
- /home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/./cmd/update.cc
+ /home/klapat/cpp/ITERM/taskTracker/otherVertion/./cmd/add.cc \
+ /home/klapat/cpp/ITERM/taskTracker/otherVertion/./cmd/delete.cc \
+ /home/klapat/cpp/ITERM/taskTracker/otherVertion/./cmd/list.cc \
+ /home/klapat/cpp/ITERM/taskTracker/otherVertion/./cmd/update.cc

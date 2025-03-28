@@ -21,10 +21,11 @@ void showHelp() {
 }
 
 void handleCommand(const std::vector<std::string> &args) {
-  if (args.empty()) {
+  if (args.empty() || args[0] == "-h" || args[0] == "--help") {
     showHelp();
     return;
   }
+
   std::string command = args[0];
   std::vector<std::string> subArgs(args.begin() + 1, args.end());
 

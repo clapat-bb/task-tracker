@@ -36,11 +36,11 @@ TaskStatus TaskStatusFromString(const std::string &status) {
 std::string statusColor(TaskStatus status) {
   switch (status) {
   case TaskStatus::TODO:
-    return "#3c3c3c";
+    return "#ff6666";
   case TaskStatus::IN_PROGRESS:
-    return "#202020";
+    return "#d3d3d3";
   case TaskStatus::DONE:
-    return "#04b575";
+    return "#006400";
   default:
     return "#3c3c3c";
   }
@@ -122,7 +122,7 @@ Task *newTask(int64_t id, const std::string &description) {
 void listTasks(TaskStatus status) {
   auto tasks = readTaskFromFile();
   if (tasks.empty()) {
-    std::cout << "no tasks found" << std::endl;
+    std::cout << "no tasks found !!!" << std::endl;
     return;
   }
 
@@ -132,8 +132,6 @@ void listTasks(TaskStatus status) {
     for (const auto &task : tasks) {
       if (task.status == status) {
         filteredTasks.push_back(task);
-      } else {
-        filteredTasks = tasks;
       }
       std::cout << "Tasks (" << TaskStatusToString(status) << ")" << std::endl;
       for (const auto &task : filteredTasks) {
@@ -166,14 +164,12 @@ void deleteTask(int64_t id) {
   auto tasks = readTaskFromFile();
   std::vector<Task> updatedTask;
   bool taskFound = false;
-  for (const auto &task : tasks) {
-    {
-      if (task.id != id) {
-        updatedTask.push_back(task);
 
-      } else {
-        taskFound = true;
-      }
+  for (const auto &task : tasks) {
+    if (task.id != id) {
+      updatedTask.push_back(task);
+    } else {
+      taskFound = true;
     }
     if (!taskFound) {
       std::cout << "Task not found (ID: " << id << ")" << std::endl;

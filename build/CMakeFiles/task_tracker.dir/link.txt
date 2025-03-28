@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/task_tracker.dir/main.cc.o CMakeFiles/task_tracker.dir/internal/task/task.cc.o -o task_tracker 

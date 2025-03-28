@@ -1,0 +1,3 @@
+/home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/build/CMakeFiles/task_tracker.dir
+/home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/build/CMakeFiles/edit_cache.dir
+/home/klapat/cpp/yogaMac/ITERM/taskTracker/otherVertion/build/CMakeFiles/rebuild_cache.dir
